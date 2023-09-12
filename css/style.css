@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;}
+html {
+    font-family: Roboto Regular;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+@font-face {
+    font-family: 'Philosopher Regular';
+    src: url('../fonts/Philosopher.eot');
+    src: url('../fonts/Philosopher.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Philosopher.woff') format('woff'),
+    url('../fonts/Philosopher.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+body {
+    background-color: #FFE2B0;
+}
+header {
+    text-align: center;  /* выравнивание по центру  */
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none; /* убирает точки перед списком */
+    text-align: center;
+    padding: 0px;
+}
+li {
+    display: inline;
+    margin-right: 100px;
+}
+a {
+    color: black;
+    text-decoration: none; /* убирает в списке подчеркивание */
+    font-size: 18px;
+}
+a:hover { /* псевдо класс */
+    color: red; 
+}
+li:last-child{
+    margin-right: 0px; /* удаляет последний отступ справа в списке */
+}
+nav {
+    margin-bottom: 20px;
+}
+.section-about {
+    height: 640px;
+    /*background-image: url(../img/01-Картинка-фона.jpg);
+    background-position: center;
+    background-size: cover; /* подгоняет изображение под разные устройства */ 
+    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat; /*  три предыдущие строки записаны одной строчкой, кроме последнего свойства оно позволяет открыть картинку в сайте на большом монеторе */
+    position: relative;
+    margin-bottom: 20px;
+}
+.section-about__block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234,  156, 65, 0.8)100%);
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    padding-top: 15px;
+
+
+}
+.section-about__border {
+   
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto; /* размещение блока по центру по горизонтали */
+    padding: 17px 0 0 28px;
+    text-align: left; 
+}
+.section-about__title {
+font-size: 36px;
+margin: 0;
+margin-bottom: 9px;
+font-family: Philosopher Regular;
+}
+.section-about__text {
+font-size: 12px;
+margin: 0;
+}
+.section-descriptuon {
+    margin-bottom: 20px;
+}
+.section-descriptuon__icon-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    .section-descriptuon__icon-box img {
+margin-right: 76px;
+}
+.secition-descriptuon__icon-box img:last-child {
+    margin-right: 0px;
+}
+.section-descriptuon__title {
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+    font-family: Philosopher Regular;
+}
+.red {
+    color: #F15B40;
+}
+.section-descriptuon__text {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+.section-map {
+    margin-bottom: 20px;
+}
+.section-map__title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Philosopher Regular;
+}
+iframe {
+display: block;
+margin: 0 auto;
+}
+.line {
+    border-bottom: 1px solid #999999;
+width: 1024px;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+footer {
+    height: 80px;
+}
+
